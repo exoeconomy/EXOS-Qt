@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CivX
+Comment=CivX P2P Cryptocurrency
+Exec=/usr/bin/civx-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/civx;
+Categories=Office;
+Name[en_US]=civx-qt.desktop
