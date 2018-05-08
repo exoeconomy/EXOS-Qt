@@ -147,7 +147,7 @@
                <cursorShape>IBeamCursor</cursorShape>
               </property>
               <property name="toolTip">
-               <string>Total of coins that was staked, and do not yet count toward the current balance</string>
+               <string>Total of tokens that was staked, and do not yet count toward the current balance</string>
               </property>
               <property name="text">
                <string notr="true">0 CIVX</string>
@@ -195,7 +195,7 @@
             <item row="3" column="0">
              <widget class="QLabel" name="labelImmatureText">
               <property name="text">
-               <string>Immature:</string>
+               <string>Maturing:</string>
               </property>
              </widget>
             </item>

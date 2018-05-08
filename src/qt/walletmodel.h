@@ -84,7 +84,7 @@ public:
         QString hex; // is filled with the transaction hash if status is "OK"
     };
 
-    // Send coins to a list of recipients
+    // Send tokens to a list of recipients
     SendCoinsReturn sendCoins(const QList<SendCoinsRecipient> &recipients, const CCoinControl *coinControl=NULL);
 
     // Wallet encryption

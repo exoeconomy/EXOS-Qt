@@ -60,7 +60,7 @@ private:
 private slots:
     /** Delete currently selected address entry */
     void on_deleteButton_clicked();
-    /** Create a new address for receiving coins and / or add a new address book entry */
+    /** Create a new address for receiving tokens and / or add a new address book entry */
     void on_newAddressButton_clicked();
     /** Copy address of currently selected address entry to clipboard */
     void on_copyToClipboard_clicked();

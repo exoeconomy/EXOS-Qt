@@ -111,7 +111,7 @@ bool SendCoinsEntry::validate()
     {
         if(ui->payAmount->value() <= 0)
         {
-            // Cannot send 0 coins or less
+            // Cannot send 0 tokens or less
             ui->payAmount->setValid(false);
             retval = false;
         }

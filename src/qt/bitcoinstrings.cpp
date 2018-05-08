@@ -186,9 +186,9 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 QT_TRANSLATE_NOOP("bitcoin-core", "Error: Transaction creation failed!"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Sending..."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Error: The transaction was rejected! This might happen if some of the coins "
+"Error: The transaction was rejected! This might happen if some of the tokens "
 "in your wallet were already spent, such as if you used a copy of wallet.dat "
-"and coins were spent in the copy but not marked as spent here."),
+"and tokens were spent in the copy but not marked as spent here."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Invalid amount"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Insufficient funds"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error"),

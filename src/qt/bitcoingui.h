@@ -152,9 +152,9 @@ private slots:
     void gotoHistoryPage();
     /** Switch to address book page */
     void gotoAddressBookPage();
-    /** Switch to receive coins page */
+    /** Switch to receive tokens page */
     void gotoReceiveCoinsPage();
-    /** Switch to send coins page */
+    /** Switch to send tokens page */
     void gotoSendCoinsPage();
 
     /** Show Sign/Verify Message dialog and switch to sign message tab */
