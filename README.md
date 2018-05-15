@@ -3,7 +3,7 @@ This the the source code repository for the CivX Blockchain Official Wallet.
 
 The Wallet source code is available here in this repository or for download here along with versions for Windows, OSX, and Linux.
 
-## Quickstart Guide
+## CivX Quickstart Guide
 Coming soon...
 
 ## Downloads:
@@ -15,5 +15,5 @@ http://www.civxeconomy.com
 ## CivX Blog:
 http://www.civxeconomy.com/blog
 
-## Discord Community
+## The CivX Discord Community
 https://discord.gg/eCNMCMt
