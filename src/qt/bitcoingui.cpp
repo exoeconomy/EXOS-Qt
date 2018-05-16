@@ -1041,7 +1041,7 @@ void BitcoinGUI::updateStakingIcon()
         else if (IsInitialBlockDownload())
             labelStakingIcon->setToolTip(tr("Not staking because wallet is syncing"));
         else if (!nWeight)
-            labelStakingIcon->setToolTip(tr("Not staking because you don't have mature coins"));
+            labelStakingIcon->setToolTip(tr("Not staking because you don't have mature tokens"));
         else
             labelStakingIcon->setToolTip(tr("Not staking"));
     }

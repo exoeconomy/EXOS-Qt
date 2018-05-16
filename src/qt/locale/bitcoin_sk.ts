@@ -535,7 +535,7 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not staking because you don&apos;t have mature tokens</source>
         <translation>Nestávkujem pretože nemáte dozreté mince</translation>
     </message>
     <message>

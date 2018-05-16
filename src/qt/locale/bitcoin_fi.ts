@@ -536,7 +536,7 @@ T채m채 tuote sis채lt채채 OpenSSL-projektin kehitt채m채채 ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not staking because you don&apos;t have mature tokens</source>
         <translation>Ei osakkaana koska sinulla ei ole kypsyneit채 varoja</translation>
     </message>
     <message>

@@ -528,7 +528,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not staking because you don&apos;t have mature tokens</source>
         <translation>Non &quot;staking&quot; porque non tes moedas maduras</translation>
     </message>
     <message>

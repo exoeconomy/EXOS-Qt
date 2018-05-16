@@ -535,7 +535,7 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not staking because you don&apos;t have mature tokens</source>
         <translation>Pay alınmıyor çünkü olgunlaşmış coininiz yoktur</translation>
     </message>
     <message>

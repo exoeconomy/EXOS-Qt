@@ -529,7 +529,7 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not staking because you don&apos;t have mature tokens</source>
         <translation type="unfinished"/>
     </message>
     <message>

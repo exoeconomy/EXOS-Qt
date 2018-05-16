@@ -535,7 +535,7 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not staking because you don&apos;t have mature tokens</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -533,7 +533,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not staking because you don&apos;t have mature tokens</source>
         <translation>Es werden keine Zinsen werden erzeugt, da Sie keine reifen Coins haben</translation>
     </message>
     <message>

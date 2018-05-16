@@ -77,7 +77,7 @@ BOOST_AUTO_TEST_CASE(coin_selection_tests)
 
         add_coin(2*CENT);           // add a mature 2 cent coin
 
-        // we can't make 3 cents of mature coins
+        // we can't make 3 cents of mature tokens
         BOOST_CHECK(!wallet.SelectCoinsMinConf( 3 * CENT, 1, 6, vCoins, setCoinsRet, nValueRet));
 
         // we can make 3 cents of new  coins
