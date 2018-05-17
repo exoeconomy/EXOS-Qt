@@ -181,7 +181,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+33"/>
-        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
+        <source>Select this option to allocate non-reserved tokens to earn staking rewards. This unlocks tokens ONLY for staking purposes, not outbound transfers.</source>
         <translation>在系统允许的情况下用于防止sendmoney欺诈，并未提供真正的安全防护措施。</translation>
     </message>
     <message>

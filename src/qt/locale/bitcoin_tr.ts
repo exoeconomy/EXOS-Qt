@@ -181,7 +181,7 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+33"/>
-        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
+        <source>Select this option to allocate non-reserved tokens to earn staking rewards. This unlocks tokens ONLY for staking purposes, not outbound transfers.</source>
         <translation>OS hesabı tehlike girdiğinde önemsiz para gönderme özelliğini devre dışı bırakmayı sağlar. Gerçek anlamda bir güvenlik sağlamaz.</translation>
     </message>
     <message>

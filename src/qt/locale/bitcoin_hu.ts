@@ -174,7 +174,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+33"/>
-        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
+        <source>Select this option to allocate non-reserved tokens to earn staking rewards. This unlocks tokens ONLY for staking purposes, not outbound transfers.</source>
         <translation>Triviálisan a sendmoney parancs letiltására szolgál, amennyiben az OS felhasználója kompromittálódik. Nem ad valós biztonságot.</translation>
     </message>
     <message>

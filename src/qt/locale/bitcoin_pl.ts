@@ -175,7 +175,7 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="+33"/>
-        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
+        <source>Select this option to allocate non-reserved tokens to earn staking rewards. This unlocks tokens ONLY for staking purposes, not outbound transfers.</source>
         <translation type="unfinished"/>
     </message>
     <message>

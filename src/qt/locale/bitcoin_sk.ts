@@ -181,7 +181,7 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+33"/>
-        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
+        <source>Select this option to allocate non-reserved tokens to earn staking rewards. This unlocks tokens ONLY for staking purposes, not outbound transfers.</source>
         <translation>Slúži na vypnutie trivial sendmoney keď je ohrozený OS účet. Neposkytuje žiadnu skutočnú istotu.</translation>
     </message>
     <message>
