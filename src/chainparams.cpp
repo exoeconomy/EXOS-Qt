@@ -161,18 +161,19 @@ public:
         strDataDir = "testnet";
         // Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce = 2434699;
-        genesis.nTime  = 1514866096;
+        genesis.nNonce = 440504;
+        genesis.nTime  = 1528761600;                  // 2018-06-12 00:00:00 UTC
 
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0x000000c86c4310655206825b3da670ddde110e7df105dec134155cb3fe0ca53c"));
+        assert(hashGenesisBlock == uint256("0x0000059bb2c2048493efcb0f1a034972b3ce4089d54c93b69aaab212fb369887"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("civx.cloud", "testnode1.civx.cloud"));
+        vSeeds.push_back(CDNSSeedData("testseednode1", "testnode1.civx.cloud"));
+        vSeeds.push_back(CDNSSeedData("testseednode2", "testnode2.exponentialz.com"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 75); // civx test net
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 75);    // civx test net start with X
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 206);
         base58Prefixes[SECRET_KEY]     = std::vector<unsigned char>(1, 75 + 128);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
@@ -193,19 +194,19 @@ static CTestNetParams testNetParams;
 class CRegTestParams : public CTestNetParams {
 public:
     CRegTestParams() {
-        pchMessageStart[0] = 0xfa;
-        pchMessageStart[1] = 0xbf;
-        pchMessageStart[2] = 0xb5;
-        pchMessageStart[3] = 0xda;
+        pchMessageStart[0] = 0x4a;
+        pchMessageStart[1] = 0xdb;
+        pchMessageStart[2] = 0xea;
+        pchMessageStart[3] = 0xfc;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
-        genesis.nTime  = 1411111111;
+        genesis.nTime  = 1391501792;
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce = 48700;
+        genesis.nNonce = 4249953;
         hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 18444;
+        nDefaultPort = 15888;
         strDataDir = "regtest";
 //        MineGenesis(genesis);
-        assert(hashGenesisBlock == uint256("0x0000097158dd04cf058b01ab3901ba7378c9285e062b5cdf1d45a40caa517c43"));
+        assert(hashGenesisBlock == uint256("0x00000755a53922ad3443a7609ee700ca246a547783116f2085fff1e486e56085"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }
