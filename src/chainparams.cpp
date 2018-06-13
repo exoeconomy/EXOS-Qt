@@ -170,8 +170,8 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("testseednode1", "testnode1.civx.cloud"));
-        vSeeds.push_back(CDNSSeedData("testseednode2", "testnode2.exponentialz.com"));
+        vSeeds.push_back(CDNSSeedData("testseednode1", "testseednode1.civx.cloud"));
+        vSeeds.push_back(CDNSSeedData("testseednode2", "testseednode2.exponentialz.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 75);    // civx test net start with X
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 206);
