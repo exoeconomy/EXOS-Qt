@@ -39,7 +39,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Specify connection timeout in milliseconds (d
 QT_TRANSLATE_NOOP("bitcoin-core", "Connect through SOCKS5 proxy"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Use proxy to reach tor hidden services (default: same as -proxy)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Allow DNS lookups for -addnode, -seednode and -connect"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Listen for connections on <port> (default: 16178 or testnet: 25714)"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Listen for connections on <port> (default: 4562 or testnet: 14562)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Maintain at most <n> connections to peers (default: 125)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Add a node to connect to and attempt to keep the connection open"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Connect only to the specified node(s)"),

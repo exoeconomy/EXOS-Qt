@@ -2717,7 +2717,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 16178 or testnet: 25714)</source>
+        <source>Listen for connections on &lt;port&gt; (default: 4562 or testnet: 14562)</source>
         <translation type="unfinished"/>
     </message>
     <message>
