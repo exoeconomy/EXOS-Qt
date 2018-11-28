@@ -31,7 +31,7 @@ RUN apt-get update && apt-get install -y \
         # libboost-program-options-dev \
         # libboost-thread-dev \
         libssl-dev \
-        ufw \
+        # ufw \
         gpw \
         pwgen
 
@@ -48,8 +48,8 @@ COPY --from=builder /app/src/civxd /usr/bin/
 
 RUN apt-get update && apt-get install -y \
         libminiupnpc10 \
-        libdb5.3++ \
-        libcrypto++ \
+        # libdb5.3++ \
+        # libcrypto++ \
         # libqrencode3 \
         # libboost-all-dev \
         # libboost-system-dev \
@@ -59,8 +59,8 @@ RUN apt-get update && apt-get install -y \
         # libboost-filesystem-dev \
         # libboost-program-options-dev \
         # libboost-thread-dev \
-        libssl1.0.0 \
-        ufw \
+        # libssl1.0.0 \
+        # ufw \
         gpw \
         pwgen
 
