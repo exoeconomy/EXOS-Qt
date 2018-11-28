@@ -47,7 +47,7 @@ RUN cd src/ && make -f makefile.unix
 
 RUN mkdir /data
 
-RUN mkdir -p /root/civx/ && \
+RUN mkdir -p /root/.civx/ && \
     echo "rpcuser=civxrpc" > /root/.civx/civx.conf && \
     echo "rpcpassword=$(pwgen -s 32 1)" >> /root/.civx/civx.conf 
 
