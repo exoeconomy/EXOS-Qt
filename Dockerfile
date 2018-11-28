@@ -38,7 +38,8 @@ RUN apt-get update && apt-get install -y \
 # Copying rest of files
 COPY . .
 
-RUN cd src/ && make -f makefile.unix USE_UPNP=1 STATIC=all
+RUN cd src/ && make -f makefile.unix USE_UPNP=1
+# STATIC=all
 
 FROM debian:8-slim as civxd
 
