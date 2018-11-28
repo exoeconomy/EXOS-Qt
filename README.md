@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/erseco/civxd.svg?branch=master)](https://travis-ci.org/erseco/civxd)
+
 # CivX-Qt
 This the the source code repository for the CivX Blockchain Official Wallet.
 
