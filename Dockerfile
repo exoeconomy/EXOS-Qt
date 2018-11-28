@@ -1,7 +1,8 @@
-FROM debian:8-slim as civxd
+FROM debian:8-slim as builder
 
 LABEL maintainer="Ernesto Serrano <ernesto@exolever.com>"
 
+WORKDIR /app
 
 # Install build deps, then run `pip install`, then remove unneeded build deps all in a single step. Correct the path to your production requirements fil
 RUN apt-get update && apt-get install -y \
@@ -43,17 +44,36 @@ COPY . .
 
 RUN cd src/ && make -f makefile.unix
 
-RUN mv src/civxd /usr/bin/
 
-RUN apt-get remove --purge -y build-essential
+FROM debian:8-slim as civxd
 
-# RUN mkdir /data
+COPY --from=builder /app/src/civxd /usr/bin/
+
+RUN apt-get update && apt-get install -y \
+        libminiupnpc \
+        libdb++ \
+        libdb \
+        libcrypto++ \
+        libqrencode \
+        libboost-all \
+        libboost-system \
+        libboost-filesystem \
+        libboost-program-options \
+        libboost-thread \
+        libboost-filesystem \
+        libboost-program-options \
+        libboost-thread \
+        libssl \
+        libdb++ \
+        libssl \
+        ufw \
+        gpw \
+        pwgen
 
 RUN mkdir -p /root/.civx/ && \
     echo "rpcuser=civxrpc" > /root/.civx/civx.conf && \
     echo "rpcpassword=$(pwgen -s 32 1)" >> /root/.civx/civx.conf
 
-#iCMD src/civxd
 
 EXPOSE 16178
 
