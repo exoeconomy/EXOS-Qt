@@ -31,41 +31,36 @@ RUN apt-get update && apt-get install -y \
         libboost-program-options-dev \
         libboost-thread-dev \
         libssl-dev \
-        libdb++-dev \
-        libssl-dev \
         ufw \
         gpw \
         pwgen
-
-
 
 # Copying rest of files
 COPY . .
 
 RUN cd src/ && make -f makefile.unix
 
-
 FROM debian:8-slim as civxd
+
+WORKDIR /app
 
 COPY --from=builder /app/src/civxd /usr/bin/
 
 RUN apt-get update && apt-get install -y \
-        libminiupnpc \
-        libdb++ \
-        libdb \
+        libminiupnpc10 \
+        libdb5.3 \
+        libdb5.3++ \
         libcrypto++ \
-        libqrencode \
-        libboost-all \
-        libboost-system \
-        libboost-filesystem \
-        libboost-program-options \
-        libboost-thread \
-        libboost-filesystem \
-        libboost-program-options \
-        libboost-thread \
-        libssl \
-        libdb++ \
-        libssl \
+        libqrencode3 \
+        libboost-all-dev \
+        libboost-system-dev \
+        libboost-filesystem-dev \
+        libboost-program-options-dev \
+        libboost-thread-dev \
+        libboost-filesystem-dev \
+        libboost-program-options-dev \
+        libboost-thread-dev \
+        libssl1.0.0 \
         ufw \
         gpw \
         pwgen
@@ -79,6 +74,6 @@ EXPOSE 16178
 
 ENTRYPOINT ["civxd", "-upnp", "-printtoconsole", "-daemon"]
 
-CMD ["civxd --help"]
+CMD ["civxd", "help"]
 
 #./civxd -upnp -printtoconsole -datadir=/dataxd
