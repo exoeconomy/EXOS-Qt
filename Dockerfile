@@ -43,20 +43,22 @@ COPY . .
 
 RUN cd src/ && make -f makefile.unix
 
-# RUN apk del .build-deps --force-broken-world
+RUN mv src/civxd /usr/bin/
 
-RUN mkdir /data
+RUN apt-get remove --purge -y build-essential
+
+# RUN mkdir /data
 
 RUN mkdir -p /root/.civx/ && \
     echo "rpcuser=civxrpc" > /root/.civx/civx.conf && \
-    echo "rpcpassword=$(pwgen -s 32 1)" >> /root/.civx/civx.conf 
+    echo "rpcpassword=$(pwgen -s 32 1)" >> /root/.civx/civx.conf
 
 #iCMD src/civxd
 
 EXPOSE 16178
 
-ENTRYPOINT ["src/civxd", "-upnp", "-printtoconsole"]
+ENTRYPOINT ["civxd", "-upnp", "-printtoconsole", "-daemon"]
 
-CMD ["--help"]
+CMD ["civxd --help"]
 
 #./civxd -upnp -printtoconsole -datadir=/dataxd
