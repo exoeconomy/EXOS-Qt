@@ -19,17 +19,17 @@ RUN apt-get update && apt-get install -y \
         # libssl-dev \
         build-essential \
         libdb++-dev \
-        libdb-dev \
+        # libdb-dev \
         libcrypto++-dev \
-        libqrencode-dev \
+        # libqrencode-dev \
         libboost-all-dev \
-        libboost-system-dev \
-        libboost-filesystem-dev \
-        libboost-program-options-dev \
-        libboost-thread-dev \
-        libboost-filesystem-dev \
-        libboost-program-options-dev \
-        libboost-thread-dev \
+        # libboost-system-dev \
+        # libboost-filesystem-dev \
+        # libboost-program-options-dev \
+        # libboost-thread-dev \
+        # libboost-filesystem-dev \
+        # libboost-program-options-dev \
+        # libboost-thread-dev \
         libssl-dev \
         ufw \
         gpw \
@@ -38,7 +38,7 @@ RUN apt-get update && apt-get install -y \
 # Copying rest of files
 COPY . .
 
-RUN cd src/ && make -f makefile.unix
+RUN cd src/ && make -f makefile.unix USE_UPNP=1 STATIC=all
 
 FROM debian:8-slim as civxd
 
@@ -48,18 +48,17 @@ COPY --from=builder /app/src/civxd /usr/bin/
 
 RUN apt-get update && apt-get install -y \
         libminiupnpc10 \
-        libdb5.3 \
         libdb5.3++ \
         libcrypto++ \
-        libqrencode3 \
-        libboost-all-dev \
-        libboost-system-dev \
-        libboost-filesystem-dev \
-        libboost-program-options-dev \
-        libboost-thread-dev \
-        libboost-filesystem-dev \
-        libboost-program-options-dev \
-        libboost-thread-dev \
+        # libqrencode3 \
+        # libboost-all-dev \
+        # libboost-system-dev \
+        # libboost-filesystem-dev \
+        # libboost-program-options-dev \
+        # libboost-thread-dev \
+        # libboost-filesystem-dev \
+        # libboost-program-options-dev \
+        # libboost-thread-dev \
         libssl1.0.0 \
         ufw \
         gpw \
