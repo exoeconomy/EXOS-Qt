@@ -62,7 +62,8 @@ RUN apt-get update && apt-get install -y \
         # libssl1.0.0 \
         # ufw \
         gpw \
-        pwgen
+        pwgen \
+      && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir -p /root/.civx/ && \
     echo "rpcuser=civxrpc" > /root/.civx/civx.conf && \
@@ -71,7 +72,7 @@ RUN mkdir -p /root/.civx/ && \
 
 EXPOSE 16178
 
-ENTRYPOINT ["civxd", "-upnp", "-printtoconsole", "-daemon"]
+#ENTRYPOINT ["civxd", "-upnp", "-printtoconsole", "-daemon"]
 
 CMD ["civxd", "help"]
 
