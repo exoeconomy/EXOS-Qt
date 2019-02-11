@@ -28,6 +28,26 @@ Alternatively, install Qt Creator and open the `civx-qt.pro` file.
 
 An executable named `civx-qt` will be built.
 
+Ubuntu-18.04.1
+-------
+
+First, make sure that the required packages for Qt5 development of your
+distribution are installed, for Ubuntu-18.04.1 this is:
+
+::
+
+    apt-get install qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools \
+        build-essential libboost-all-dev libssl1.0-dev libdb++-dev libminiupnpc-dev  -y
+
+then execute the following:
+
+::
+
+    qmake
+    make
+
+An executable named `civx-qt` will be built.
+
 
 Windows
 --------
