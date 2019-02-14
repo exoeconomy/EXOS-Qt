@@ -4,35 +4,11 @@ CivX-qt: Qt5 GUI for CivX
 Build instructions
 ===================
 
-Debian
+Debian / Ubuntu-18
 -------
 
 First, make sure that the required packages for Qt5 development of your
 distribution are installed, for Debian and Ubuntu these are:
-
-::
-
-    apt-get install qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools \
-        build-essential libboost-dev libboost-system-dev \
-        libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
-        libssl-dev libdb++-dev libminiupnpc-dev
-
-then execute the following:
-
-::
-
-    qmake
-    make
-
-Alternatively, install Qt Creator and open the `civx-qt.pro` file.
-
-An executable named `civx-qt` will be built.
-
-Ubuntu-18.04.1
--------
-
-First, make sure that the required packages for Qt5 development of your
-distribution are installed, for Ubuntu-18.04.1 this is:
 
 ::
 
@@ -45,6 +21,8 @@ then execute the following:
 
     qmake
     make
+
+Alternatively, install Qt Creator and open the `civx-qt.pro` file.
 
 An executable named `civx-qt` will be built.
 
