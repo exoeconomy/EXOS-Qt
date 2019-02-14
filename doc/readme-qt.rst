@@ -4,7 +4,7 @@ CivX-qt: Qt5 GUI for CivX
 Build instructions
 ===================
 
-Debian
+Debian / Ubuntu-18
 -------
 
 First, make sure that the required packages for Qt5 development of your
@@ -13,9 +13,7 @@ distribution are installed, for Debian and Ubuntu these are:
 ::
 
     apt-get install qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools \
-        build-essential libboost-dev libboost-system-dev \
-        libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
-        libssl-dev libdb++-dev libminiupnpc-dev
+        build-essential libboost-all-dev libssl1.0-dev libdb++-dev libminiupnpc-dev  -y
 
 then execute the following:
 
