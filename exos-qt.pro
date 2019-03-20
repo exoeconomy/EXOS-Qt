@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = exos-qt
-VERSION = 2.0.0.X
+VERSION = 2.0.0.1
 INCLUDEPATH += src src/json src/qt
 QT += network
 DEFINES += ENABLE_WALLET
