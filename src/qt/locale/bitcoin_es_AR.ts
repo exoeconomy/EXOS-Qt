@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CivX</source>
-        <translation>Sobre CivX</translation>
+        <source>About EXOS</source>
+        <translation>Sobre EXOS</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CivX&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CivX&lt;/b&gt; versión</translation>
+        <source>&lt;b&gt;EXOS&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;EXOS&lt;/b&gt; versión</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CivX developers</source>
+Copyright © 2018-2019 The OpenExO and ExO Economy developers</source>
         <translation>Copyright © 2009-2014 Los Desarrolladores Bitcoin
 Copyright © 2012-2014 Los Desarrolladores NovaCoin
 Copyright © 2014 Los Desarrolladores Bitcoin</translation>
@@ -65,8 +65,8 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CivX addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estas son sus direcciones CivX para recibir pagos. Usted debería compartir una dirección diferente por cada  persona que le envía, para mantener un registro de quien le esta pagando.</translation>
+        <source>These are your EXOS addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estas son sus direcciones EXOS para recibir pagos. Usted debería compartir una dirección diferente por cada  persona que le envía, para mantener un registro de quien le esta pagando.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CivX address</source>
-        <translation>Fírme un mensaje para probar que usted posee una dirección CivX</translation>
+        <source>Sign a message to prove you own a EXOS address</source>
+        <translation>Fírme un mensaje para probar que usted posee una dirección EXOS</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CivX address</source>
-        <translation>Verifique un mensaje para asegurar que fue firmado con una dirección CivX especificada</translation>
+        <source>Verify a message to ensure it was signed with a specified EXOS address</source>
+        <translation>Verifique un mensaje para asegurar que fue firmado con una dirección EXOS especificada</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     </message>
     <message>
         <location line="+82"/>
-        <source>CivX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tokens from being stolen by malware infecting your computer.</source>
-        <translation>CivX se cerrará ahora para finalizar el proceso de encriptado. Recuerde que encriptar su billetera no puede completamente protegerlo de que sus monedas sean robadas por posible malware infectando su computadora.</translation>
+        <source>EXOS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tokens from being stolen by malware infecting your computer.</source>
+        <translation>EXOS se cerrará ahora para finalizar el proceso de encriptado. Recuerde que encriptar su billetera no puede completamente protegerlo de que sus monedas sean robadas por posible malware infectando su computadora.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CivX</source>
-        <translation>Mostrar información sobre CivX</translation>
+        <source>Show information about EXOS</source>
+        <translation>Mostrar información sobre EXOS</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     </message>
     <message>
         <location line="-55"/>
-        <source>Send tokens to a CivX address</source>
-        <translation>Enviar monedas a una dirección CivX</translation>
+        <source>Send tokens to a EXOS address</source>
+        <translation>Enviar monedas a una dirección EXOS</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CivX</source>
-        <translation>Modificar opciones de configuración para CivX</translation>
+        <source>Modify configuration options for EXOS</source>
+        <translation>Modificar opciones de configuración para EXOS</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>CivX</source>
-        <translation>CivX</translation>
+        <source>EXOS</source>
+        <translation>EXOS</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -453,8 +453,8 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CivX</source>
-        <translation>&amp;Sobre CivX</translation>
+        <source>&amp;About EXOS</source>
+        <translation>&amp;Sobre EXOS</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CivX client</source>
-        <translation>Cliente CivX</translation>
+        <source>EXOS client</source>
+        <translation>Cliente EXOS</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CivX network</source>
-        <translation><numerusform>%n conexión activa a la red CivX</numerusform><numerusform>%n conexiónes activas a la red CivX</numerusform></translation>
+        <source>%n active connection(s) to EXOS network</source>
+        <translation><numerusform>%n conexión activa a la red EXOS</numerusform><numerusform>%n conexiónes activas a la red EXOS</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -605,7 +605,7 @@ Dirección: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CivX address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid EXOS address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -728,7 +728,7 @@ Dirección: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CivX can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. EXOS can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1048,7 +1048,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CivX address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid EXOS address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1067,7 +1067,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CivX-Qt</source>
+        <source>EXOS-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1140,12 +1140,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CivX after logging in to the system.</source>
+        <source>Automatically start EXOS after logging in to the system.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CivX on system login</source>
+        <source>&amp;Start EXOS on system login</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1155,7 +1155,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CivX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the EXOS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1185,7 +1185,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the CivX network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the EXOS network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1230,7 +1230,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CivX.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting EXOS.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1297,7 +1297,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CivX.</source>
+        <source>This setting will take effect after restarting EXOS.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1316,7 +1316,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CivX network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EXOS network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1390,7 +1390,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start civx: click-to-pay handler</source>
+        <source>Cannot start exos: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1558,7 +1558,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CivX-Qt help message to get a list with possible CivX command-line options.</source>
+        <source>Show the EXOS-Qt help message to get a list with possible EXOS command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1578,12 +1578,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>CivX - Debug window</source>
+        <source>EXOS - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>CivX Core</source>
+        <source>EXOS Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1593,7 +1593,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CivX debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the EXOS debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1603,7 +1603,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the CivX RPC console.</source>
+        <source>Welcome to the EXOS RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1784,7 +1784,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a CivX address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
+        <source>Enter a EXOS address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1884,7 +1884,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid CivX address</source>
+        <source>WARNING: Invalid EXOS address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1958,7 +1958,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CivX address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
+        <source>Enter a EXOS address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -2019,7 +2019,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CivX address</source>
+        <source>Sign the message to prove you own this EXOS address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2051,7 +2051,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CivX address</source>
+        <source>Verify the message to ensure it was signed with the specified EXOS address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2062,7 +2062,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CivX address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
+        <source>Enter a EXOS address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2072,7 +2072,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CivX signature</source>
+        <source>Enter EXOS signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2651,7 +2651,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+171"/>
-        <source>CivX version</source>
+        <source>EXOS version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2661,7 +2661,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or civxd</source>
+        <source>Send command to -server or exosd</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2681,12 +2681,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: civx.conf)</source>
+        <source>Specify configuration file (default: exos.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: civxd.pid)</source>
+        <source>Specify pid file (default: exosd.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2704,13 +2704,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=civxrpc
+rpcuser=exosrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;EXOS Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2816,7 +2816,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CivX will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong EXOS will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3111,7 +3111,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. CivX is shutting down.</source>
+        <source>Initialization sanity check failed. EXOS is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3166,12 +3166,12 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CivX</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of EXOS</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CivX to complete</source>
+        <source>Wallet needed to be rewritten: restart EXOS to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3231,7 +3231,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+124"/>
-        <source>Unable to bind to %s on this computer. CivX is probably already running.</source>
+        <source>Unable to bind to %s on this computer. EXOS is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3266,7 +3266,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CivX is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. EXOS is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

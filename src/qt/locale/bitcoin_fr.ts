@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CivX</source>
-        <translation>Au sujet de CivX</translation>
+        <source>About EXOS</source>
+        <translation>Au sujet de EXOS</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CivX&lt;/b&gt; version</source>
-        <translation>Version de &lt;b&gt;CivX&lt;/b&gt;</translation>
+        <source>&lt;b&gt;EXOS&lt;/b&gt; version</source>
+        <translation>Version de &lt;b&gt;EXOS&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CivX developers</source>
+Copyright © 2018-2019 The OpenExO and ExO Economy developers</source>
         <translation>Copyright © 2009-2014 Les développeurs Bitcoin
 Copyright © 2012-2014 Les développeurs NovaCoin
-Copyright © 2014 Les développeurs CivX</translation>
+Copyright © 2014 Les développeurs EXOS</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,7 +60,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CivX addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your EXOS addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Ce sont vos adresses pour recevoir vos paiements. Vous pouvez utiliser une adresse différente pour chaque réception afin d&apos;identifier facilement le payeur.</translation>
     </message>
     <message>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CivX address</source>
-        <translation>Signer un message afin de valider l&apos;identité de votre adresse CivX</translation>
+        <source>Sign a message to prove you own a EXOS address</source>
+        <translation>Signer un message afin de valider l&apos;identité de votre adresse EXOS</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CivX address</source>
-        <translation>Vérifier un message pour s&apos;assurer qu&apos;il vient d&apos;un adresse CivX spécifique.</translation>
+        <source>Verify a message to ensure it was signed with a specified EXOS address</source>
+        <translation>Vérifier un message pour s&apos;assurer qu&apos;il vient d&apos;un adresse EXOS spécifique.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -227,7 +227,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Avertissement : Si vous chiffrez votre portefeuille et perdez votre passphrase, vous ne pourrez &lt;b&gt;plus accéder à vos CivXs&lt;/b&gt;!</translation>
+        <translation>Avertissement : Si vous chiffrez votre portefeuille et perdez votre passphrase, vous ne pourrez &lt;b&gt;plus accéder à vos EXOSs&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>CivX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tokens from being stolen by malware infecting your computer.</source>
-        <translation>L&apos;application CivX va désormais se terminer afin de finaliser le processus de chiffrage. Merci de noter que le chiffrage du portefeuille ne garantit pas de se prémunir du vol via utilisation de malware, qui auraient pu infecter votre ordinateur. </translation>
+        <source>EXOS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tokens from being stolen by malware infecting your computer.</source>
+        <translation>L&apos;application EXOS va désormais se terminer afin de finaliser le processus de chiffrage. Merci de noter que le chiffrage du portefeuille ne garantit pas de se prémunir du vol via utilisation de malware, qui auraient pu infecter votre ordinateur. </translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CivX</source>
-        <translation>Afficher des informations au sujet de CivX</translation>
+        <source>Show information about EXOS</source>
+        <translation>Afficher des informations au sujet de EXOS</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send tokens to a CivX address</source>
-        <translation>Envoyer des monnaies vers une adresse CivX</translation>
+        <source>Send tokens to a EXOS address</source>
+        <translation>Envoyer des monnaies vers une adresse EXOS</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CivX</source>
-        <translation>Modification des options de configuration de CivX</translation>
+        <source>Modify configuration options for EXOS</source>
+        <translation>Modification des options de configuration de EXOS</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>CivX</source>
-        <translation>CivX</translation>
+        <source>EXOS</source>
+        <translation>EXOS</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CivX</source>
-        <translation>&amp;Au sujet de CivX</translation>
+        <source>&amp;About EXOS</source>
+        <translation>&amp;Au sujet de EXOS</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CivX client</source>
-        <translation>Client CivX</translation>
+        <source>EXOS client</source>
+        <translation>Client EXOS</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CivX network</source>
-        <translation><numerusform>%n connexion active au réseau CivX</numerusform><numerusform>%n connexions actives au réseau CivX</numerusform></translation>
+        <source>%n active connection(s) to EXOS network</source>
+        <translation><numerusform>%n connexion active au réseau EXOS</numerusform><numerusform>%n connexions actives au réseau EXOS</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adresse : %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CivX address or malformed URI parameters.</source>
-        <translation>L&apos;adresse du portefeuille CivX n&apos;as pas pu être correctement identifiée, car invalide ou malformée.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid EXOS address or malformed URI parameters.</source>
+        <translation>L&apos;adresse du portefeuille EXOS n&apos;as pas pu être correctement identifiée, car invalide ou malformée.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CivX can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale a été rencontrée. L&apos;application CivX ne peut plus être s&apos;exécuter de façon correcte et va se terminer.</translation>
+        <source>A fatal error occurred. EXOS can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale a été rencontrée. L&apos;application EXOS ne peut plus être s&apos;exécuter de façon correcte et va se terminer.</translation>
     </message>
 </context>
 <context>
@@ -1057,8 +1057,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CivX address.</source>
-        <translation>L&apos;adresse &quot;%1&quot; renseignée n&apos;est pas une adresse CivX valide.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid EXOS address.</source>
+        <translation>L&apos;adresse &quot;%1&quot; renseignée n&apos;est pas une adresse EXOS valide.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CivX-Qt</source>
-        <translation>CivX-Qt</translation>
+        <source>EXOS-Qt</source>
+        <translation>EXOS-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CivX after logging in to the system.</source>
-        <translation>Démarrage automatique du client CivX lors de la connexion au système</translation>
+        <source>Automatically start EXOS after logging in to the system.</source>
+        <translation>Démarrage automatique du client EXOS lors de la connexion au système</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CivX on system login</source>
-        <translation>&amp;Démarrage du client CivX à la connexion au système</translation>
+        <source>&amp;Start EXOS on system login</source>
+        <translation>&amp;Démarrage du client EXOS à la connexion au système</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CivX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquemwnr le port client de CivX sur le routeur. Ceci ne fonctionne que dans le cas où le support UPnP sur votre routeur existe et est actif.</translation>
+        <source>Automatically open the EXOS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquemwnr le port client de EXOS sur le routeur. Ceci ne fonctionne que dans le cas où le support UPnP sur votre routeur existe et est actif.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1194,7 +1194,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the CivX network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the EXOS network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1239,8 +1239,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CivX.</source>
-        <translation>La langue d&apos;interface de l&apos;utilisateur peut être définie ici. Les modification seront prises en compte après redémarrage de l&apos;application CivX</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting EXOS.</source>
+        <translation>La langue d&apos;interface de l&apos;utilisateur peut être définie ici. Les modification seront prises en compte après redémarrage de l&apos;application EXOS</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1306,8 +1306,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CivX.</source>
-        <translation>Les paramètres prendront effet après redémarrage du client CivX</translation>
+        <source>This setting will take effect after restarting EXOS.</source>
+        <translation>Les paramètres prendront effet après redémarrage du client EXOS</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1325,8 +1325,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CivX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les informations affichées peuvent être obsolètes. Votre portefeuille se synchronise automatiquement avec le réseau CivX mais ce processus n&apos;est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EXOS network after a connection is established, but this process has not completed yet.</source>
+        <translation>Les informations affichées peuvent être obsolètes. Votre portefeuille se synchronise automatiquement avec le réseau EXOS mais ce processus n&apos;est pas encore terminé.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1399,7 +1399,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start civx: click-to-pay handler</source>
+        <source>Cannot start exos: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1567,8 +1567,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CivX-Qt help message to get a list with possible CivX command-line options.</source>
-        <translation>Afficher le message d&apos;aide CivX-Qt afin d&apos;obtenir la liste des options de de L&apos;outil en ligne de commande CivX</translation>
+        <source>Show the EXOS-Qt help message to get a list with possible EXOS command-line options.</source>
+        <translation>Afficher le message d&apos;aide EXOS-Qt afin d&apos;obtenir la liste des options de de L&apos;outil en ligne de commande EXOS</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1587,13 +1587,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="-104"/>
-        <source>CivX - Debug window</source>
-        <translation>CivX - Fenêtre de déboggage</translation>
+        <source>EXOS - Debug window</source>
+        <translation>EXOS - Fenêtre de déboggage</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CivX Core</source>
-        <translation>CivX Core</translation>
+        <source>EXOS Core</source>
+        <translation>EXOS Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1602,8 +1602,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CivX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ouvrir le fichier journal de debug CivX au sein du répertoire courant. Cette opération peut prendre quelques secondes dans le cas de fichiers journaux volumineux.</translation>
+        <source>Open the EXOS debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ouvrir le fichier journal de debug EXOS au sein du répertoire courant. Cette opération peut prendre quelques secondes dans le cas de fichiers journaux volumineux.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1612,8 +1612,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the CivX RPC console.</source>
-        <translation>Bienvenue sur la console RPC de CivX.</translation>
+        <source>Welcome to the EXOS RPC console.</source>
+        <translation>Bienvenue sur la console RPC de EXOS.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1793,8 +1793,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a CivX address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
-        <translation>Entrer une adresse CivX (par ex: CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
+        <source>Enter a EXOS address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
+        <translation>Entrer une adresse EXOS (par ex: CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1893,8 +1893,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid CivX address</source>
-        <translation>AVERTISSEMENT: Adresse CivX Invalide</translation>
+        <source>WARNING: Invalid EXOS address</source>
+        <translation>AVERTISSEMENT: Adresse EXOS Invalide</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1904,7 +1904,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="+4"/>
         <source>WARNING: unknown change address</source>
-        <translation>AVERTISSEMENT: Adresse CivX Invalide</translation>
+        <translation>AVERTISSEMENT: Adresse EXOS Invalide</translation>
     </message>
 </context>
 <context>
@@ -1967,8 +1967,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CivX address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
-        <translation>Entrer une adresse CivX (par ex: CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
+        <source>Enter a EXOS address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
+        <translation>Entrer une adresse EXOS (par ex: CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
     </message>
 </context>
 <context>
@@ -1992,7 +1992,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
-        <translation>Entrer une adresse CivX (par ex: CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
+        <translation>Entrer une adresse EXOS (par ex: CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2028,8 +2028,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CivX address</source>
-        <translation>Signer le message afin de prouver l&apos;identité de votre adresse CivX</translation>
+        <source>Sign the message to prove you own this EXOS address</source>
+        <translation>Signer le message afin de prouver l&apos;identité de votre adresse EXOS</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2060,8 +2060,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CivX address</source>
-        <translation>Vérifiez le message afin de vous assurer qu&apos;il provient de l&apos;adresse CivX spécifiée.</translation>
+        <source>Verify the message to ensure it was signed with the specified EXOS address</source>
+        <translation>Vérifiez le message afin de vous assurer qu&apos;il provient de l&apos;adresse EXOS spécifiée.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2071,8 +2071,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CivX address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
-        <translation>Entrer une adresse CivX (par ex: CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
+        <source>Enter a EXOS address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
+        <translation>Entrer une adresse EXOS (par ex: CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2081,8 +2081,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CivX signature</source>
-        <translation>Entrer une signature CivX</translation>
+        <source>Enter EXOS signature</source>
+        <translation>Entrer une signature EXOS</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2660,8 +2660,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+171"/>
-        <source>CivX version</source>
-        <translation>Version CivX</translation>
+        <source>EXOS version</source>
+        <translation>Version EXOS</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2670,8 +2670,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or civxd</source>
-        <translation>Envoyer commande à -server ou civxd</translation>
+        <source>Send command to -server or exosd</source>
+        <translation>Envoyer commande à -server ou exosd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2690,13 +2690,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: civx.conf)</source>
-        <translation>Spécifier le fichier de configuration (par défaut: civx.conf)</translation>
+        <source>Specify configuration file (default: exos.conf)</source>
+        <translation>Spécifier le fichier de configuration (par défaut: exos.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: civxd.pid)</source>
-        <translation>Spécifier le fichier pid (par défaut: civxd.pid)</translation>
+        <source>Specify pid file (default: exosd.pid)</source>
+        <translation>Spécifier le fichier pid (par défaut: exosd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2713,13 +2713,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=civxrpc
+rpcuser=exosrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;EXOS Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2825,8 +2825,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CivX will not work properly.</source>
-        <translation>Avertissement: Veuillez vérifier la date et l&apos;heure de votre ordinateur. CivX ne pourra pas fonctionner correctement si l&apos;horloge est réglée de façon incorrecte</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong EXOS will not work properly.</source>
+        <translation>Avertissement: Veuillez vérifier la date et l&apos;heure de votre ordinateur. EXOS ne pourra pas fonctionner correctement si l&apos;horloge est réglée de façon incorrecte</translation>
     </message>
     <message>
         <location line="+130"/>
@@ -3120,7 +3120,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. CivX is shutting down.</source>
+        <source>Initialization sanity check failed. EXOS is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3175,13 +3175,13 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CivX</source>
-        <translation>Erreur de chargement du fichier wallet.dat: le portefeuille nécessite une version plus récente de l&apos;application CivX</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of EXOS</source>
+        <translation>Erreur de chargement du fichier wallet.dat: le portefeuille nécessite une version plus récente de l&apos;application EXOS</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CivX to complete</source>
-        <translation>Le portefeuille nécessite d&apos;être réédité : Merci de relancer l&apos;application CivX</translation>
+        <source>Wallet needed to be rewritten: restart EXOS to complete</source>
+        <translation>Le portefeuille nécessite d&apos;être réédité : Merci de relancer l&apos;application EXOS</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3240,8 +3240,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+124"/>
-        <source>Unable to bind to %s on this computer. CivX is probably already running.</source>
-        <translation>Connexion au port %s impossible. L&apos;application CivX est probablement déjà en cours d&apos;exécution</translation>
+        <source>Unable to bind to %s on this computer. EXOS is probably already running.</source>
+        <translation>Connexion au port %s impossible. L&apos;application EXOS est probablement déjà en cours d&apos;exécution</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3275,7 +3275,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CivX is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. EXOS is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

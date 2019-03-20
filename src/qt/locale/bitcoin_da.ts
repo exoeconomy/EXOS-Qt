@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CivX</source>
-        <translation>Om CivX</translation>
+        <source>About EXOS</source>
+        <translation>Om EXOS</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CivX&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CivX&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;EXOS&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;EXOS&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CivX developers</source>
+Copyright © 2018-2019 The OpenExO and ExO Economy developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CivX developers</translation>
+Copyright © 2018-2019 The OpenExO and ExO Economy developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CivX addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine CivX adresser til at modtage betalinger. Du ønsker måske at give en anden en til af hver afsender, så du kan holde styr på hvem der betaler dig.</translation>
+        <source>These are your EXOS addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine EXOS adresser til at modtage betalinger. Du ønsker måske at give en anden en til af hver afsender, så du kan holde styr på hvem der betaler dig.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CivX address</source>
-        <translation>Signerer en meddelelse for at bevise du ejer en CivX adresse</translation>
+        <source>Sign a message to prove you own a EXOS address</source>
+        <translation>Signerer en meddelelse for at bevise du ejer en EXOS adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CivX address</source>
-        <translation>Bekræft en meddelelse for at sikre, den blev underskrevet med en specificeret CivX adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified EXOS address</source>
+        <translation>Bekræft en meddelelse for at sikre, den blev underskrevet med en specificeret EXOS adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>CivX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tokens from being stolen by malware infecting your computer.</source>
-        <translation>CivX lukker nu for at afslutte krypteringen. Husk at en krypteret  tegnebog ikke fuldt ud beskytter dine mønter mod at blive stjålet af malware som har inficeret din computer.</translation>
+        <source>EXOS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tokens from being stolen by malware infecting your computer.</source>
+        <translation>EXOS lukker nu for at afslutte krypteringen. Husk at en krypteret  tegnebog ikke fuldt ud beskytter dine mønter mod at blive stjålet af malware som har inficeret din computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CivX</source>
-        <translation>Vis oplysninger om CivX</translation>
+        <source>Show information about EXOS</source>
+        <translation>Vis oplysninger om EXOS</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send tokens to a CivX address</source>
-        <translation>Send mønter til en CivX adresse</translation>
+        <source>Send tokens to a EXOS address</source>
+        <translation>Send mønter til en EXOS adresse</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CivX</source>
-        <translation>Ændre indstillingsmuligheder for CivX</translation>
+        <source>Modify configuration options for EXOS</source>
+        <translation>Ændre indstillingsmuligheder for EXOS</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>CivX</source>
-        <translation>CivX</translation>
+        <source>EXOS</source>
+        <translation>EXOS</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CivX</source>
-        <translation>&amp;Om CivX</translation>
+        <source>&amp;About EXOS</source>
+        <translation>&amp;Om EXOS</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CivX client</source>
-        <translation>CivX klient</translation>
+        <source>EXOS client</source>
+        <translation>EXOS klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CivX network</source>
-        <translation><numerusform>%n aktiv forbindelse til CivX netværk</numerusform><numerusform>%n aktive forbindelser til CivX netværk</numerusform></translation>
+        <source>%n active connection(s) to EXOS network</source>
+        <translation><numerusform>%n aktiv forbindelse til EXOS netværk</numerusform><numerusform>%n aktive forbindelser til EXOS netværk</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adresse: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CivX address or malformed URI parameters.</source>
-        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig CivX adresse eller misdannede URI parametre.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid EXOS address or malformed URI parameters.</source>
+        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig EXOS adresse eller misdannede URI parametre.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,7 +723,7 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CivX can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. EXOS can no longer continue safely and will quit.</source>
         <translation>Der opstod en fejl under forsøg på at gemme dataene i tegnebogen til den nye placering.</translation>
     </message>
 </context>
@@ -1057,8 +1057,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CivX address.</source>
-        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig CivX adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid EXOS address.</source>
+        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig EXOS adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CivX-Qt</source>
-        <translation>CivX-Qt</translation>
+        <source>EXOS-Qt</source>
+        <translation>EXOS-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CivX after logging in to the system.</source>
-        <translation>Automatisk start CivX efter at have logget ind på systemet.</translation>
+        <source>Automatically start EXOS after logging in to the system.</source>
+        <translation>Automatisk start EXOS efter at have logget ind på systemet.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CivX on system login</source>
-        <translation>&amp;Start CivX ved systems login</translation>
+        <source>&amp;Start EXOS on system login</source>
+        <translation>&amp;Start EXOS ved systems login</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CivX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisk åbne CivX klient-port på routeren. Dette virker kun, når din router understøtter UPnP og er det er aktiveret.</translation>
+        <source>Automatically open the EXOS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisk åbne EXOS klient-port på routeren. Dette virker kun, når din router understøtter UPnP og er det er aktiveret.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1194,7 +1194,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the CivX network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the EXOS network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1239,8 +1239,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CivX.</source>
-        <translation>Sproget i brugergrænsefladen kan indstilles her. Denne indstilling vil træde i kraft efter genstart af CivX tegnebog.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting EXOS.</source>
+        <translation>Sproget i brugergrænsefladen kan indstilles her. Denne indstilling vil træde i kraft efter genstart af EXOS tegnebog.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1306,8 +1306,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CivX.</source>
-        <translation>Denne indstilling vil træde i kraft efter genstart af CivX.</translation>
+        <source>This setting will take effect after restarting EXOS.</source>
+        <translation>Denne indstilling vil træde i kraft efter genstart af EXOS.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1325,8 +1325,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CivX network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste oplysninger kan være forældet. Din tegnebog synkroniserer automatisk med CivX netværket efter en forbindelse er etableret, men denne proces er ikke afsluttet endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EXOS network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste oplysninger kan være forældet. Din tegnebog synkroniserer automatisk med EXOS netværket efter en forbindelse er etableret, men denne proces er ikke afsluttet endnu.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1399,7 +1399,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start civx: click-to-pay handler</source>
+        <source>Cannot start exos: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1567,8 +1567,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CivX-Qt help message to get a list with possible CivX command-line options.</source>
-        <translation>Vis CivX-Qt hjælpe besked for at få en liste med mulige CivX kommandolinjeparametre.</translation>
+        <source>Show the EXOS-Qt help message to get a list with possible EXOS command-line options.</source>
+        <translation>Vis EXOS-Qt hjælpe besked for at få en liste med mulige EXOS kommandolinjeparametre.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1587,13 +1587,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>CivX - Debug window</source>
-        <translation>CivX - Debug vindue</translation>
+        <source>EXOS - Debug window</source>
+        <translation>EXOS - Debug vindue</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CivX Core</source>
-        <translation>CivX Kerne</translation>
+        <source>EXOS Core</source>
+        <translation>EXOS Kerne</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1602,8 +1602,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CivX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn CivX debug logfilen fra den nuværende data mappe. Dette kan tage et par sekunder for store logfiler.</translation>
+        <source>Open the EXOS debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn EXOS debug logfilen fra den nuværende data mappe. Dette kan tage et par sekunder for store logfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1612,8 +1612,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the CivX RPC console.</source>
-        <translation>Velkommen til CivX RPC-konsol.</translation>
+        <source>Welcome to the EXOS RPC console.</source>
+        <translation>Velkommen til EXOS RPC-konsol.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1793,8 +1793,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a CivX address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
-        <translation>Indtast en CivX-adresse (f.eks CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
+        <source>Enter a EXOS address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
+        <translation>Indtast en EXOS-adresse (f.eks CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1893,8 +1893,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid CivX address</source>
-        <translation>ADVARSEL: Ugyldig CivX adresse</translation>
+        <source>WARNING: Invalid EXOS address</source>
+        <translation>ADVARSEL: Ugyldig EXOS adresse</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1967,8 +1967,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CivX address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
-        <translation>Indtast en CivX-adresse (f.eks CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
+        <source>Enter a EXOS address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
+        <translation>Indtast en EXOS-adresse (f.eks CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
     </message>
 </context>
 <context>
@@ -2028,8 +2028,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CivX address</source>
-        <translation>Underskriv brevet for at bevise du ejer denne CivX adresse</translation>
+        <source>Sign the message to prove you own this EXOS address</source>
+        <translation>Underskriv brevet for at bevise du ejer denne EXOS adresse</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2060,8 +2060,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CivX address</source>
-        <translation>Kontroller meddelelsen for at sikre, at den blev indgået med den angivne CivX adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified EXOS address</source>
+        <translation>Kontroller meddelelsen for at sikre, at den blev indgået med den angivne EXOS adresse</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2071,8 +2071,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CivX address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
-        <translation>Indtast en CivX-adresse (f.eks CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
+        <source>Enter a EXOS address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
+        <translation>Indtast en EXOS-adresse (f.eks CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2081,8 +2081,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CivX signature</source>
-        <translation>Indtast CivX underskrift</translation>
+        <source>Enter EXOS signature</source>
+        <translation>Indtast EXOS underskrift</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2660,8 +2660,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+171"/>
-        <source>CivX version</source>
-        <translation>CivX version</translation>
+        <source>EXOS version</source>
+        <translation>EXOS version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2670,8 +2670,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or civxd</source>
-        <translation>Send kommando til-server eller civxd</translation>
+        <source>Send command to -server or exosd</source>
+        <translation>Send kommando til-server eller exosd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2690,13 +2690,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: civx.conf)</source>
-        <translation>Angiv konfigurationsfil (default: civx.conf)</translation>
+        <source>Specify configuration file (default: exos.conf)</source>
+        <translation>Angiv konfigurationsfil (default: exos.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: civxd.pid)</source>
-        <translation>Angiv pid fil (standard: civxd.pid)</translation>
+        <source>Specify pid file (default: exosd.pid)</source>
+        <translation>Angiv pid fil (standard: exosd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2713,13 +2713,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=civxrpc
+rpcuser=exosrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;EXOS Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2825,8 +2825,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CivX will not work properly.</source>
-        <translation>Advarsel: Kontroller venligst, at computerens dato og klokkeslæt er korrekt! Hvis dit ur er forkert vil CivX ikke fungere korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong EXOS will not work properly.</source>
+        <translation>Advarsel: Kontroller venligst, at computerens dato og klokkeslæt er korrekt! Hvis dit ur er forkert vil EXOS ikke fungere korrekt.</translation>
     </message>
     <message>
         <location line="+130"/>
@@ -3120,7 +3120,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. CivX is shutting down.</source>
+        <source>Initialization sanity check failed. EXOS is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3175,13 +3175,13 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CivX</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Wallet kræver en nyere version af CivX</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of EXOS</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Wallet kræver en nyere version af EXOS</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CivX to complete</source>
-        <translation>Det er nødvendig for wallet at blive omskrevet: Genstart CivX for fuldføre</translation>
+        <source>Wallet needed to be rewritten: restart EXOS to complete</source>
+        <translation>Det er nødvendig for wallet at blive omskrevet: Genstart EXOS for fuldføre</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3240,8 +3240,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+124"/>
-        <source>Unable to bind to %s on this computer. CivX is probably already running.</source>
-        <translation>Kunne ikke binde sig til% s på denne computer. CivX kører sikkert allerede.</translation>
+        <source>Unable to bind to %s on this computer. EXOS is probably already running.</source>
+        <translation>Kunne ikke binde sig til% s på denne computer. EXOS kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3275,7 +3275,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CivX is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. EXOS is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
