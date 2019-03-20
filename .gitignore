@@ -1,7 +1,7 @@
 src/*.exe
-src/civx
-src/civxd
-src/test_civx
+src/exos
+src/exosd
+src/test_exos
 src/build.h
 .*.swp
 *.*~*
@@ -10,12 +10,12 @@ src/build.h
 *.orig
 *.o
 *.patch
-.civx
+.exos
 
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-civx-qt
+exos-qt
 #resources cpp
 qrc_*.cpp
 #qt creator

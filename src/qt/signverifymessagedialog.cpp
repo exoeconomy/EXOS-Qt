@@ -24,11 +24,11 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a CivX address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a EXOS address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a CivX address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)"));
-    ui->signatureIn_VM->setPlaceholderText(tr("Enter CivX signature"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a EXOS address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)"));
+    ui->signatureIn_VM->setPlaceholderText(tr("Enter EXOS signature"));
 #endif
 
     GUIUtil::setupAddressWidget(ui->addressIn_SM, this);

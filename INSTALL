@@ -1,9 +1,9 @@
-Building CivX
+Building EXOS
 
-See doc/readme-qt.rst for instructions on building CivX QT,
+See doc/readme-qt.rst for instructions on building EXOS QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of CivX.
+implementation of EXOS.
 
-See doc/build-*.txt for instructions on building civxd,
+See doc/build-*.txt for instructions on building exosd,
 the intended-for-services, no-graphical-interface, reference
-implementation of CivX.
+implementation of EXOS.

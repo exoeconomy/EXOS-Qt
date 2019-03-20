@@ -116,7 +116,7 @@ void AskPassphraseDialog::accept()
                 {
                     QMessageBox::warning(this, tr("Wallet encrypted"),
                                          "<qt>" + 
-                                         tr("CivX will close now to finish the encryption process. "
+                                         tr("EXOS will close now to finish the encryption process. "
                                          "Remember that encrypting your wallet cannot fully protect "
                                          "your tokens from being stolen by malware infecting your computer.") + 
                                          "<br><br><b>" + 

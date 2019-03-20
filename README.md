@@ -1,21 +1,21 @@
-[![Build Status](https://travis-ci.org/exofoundation/CivX-Qt.svg?branch=master)](https://travis-ci.org/exofoundation/CivX-Qt)
+[![Build Status](https://travis-ci.org/exoeconomy/EXOS-Qt.svg?branch=master)](https://travis-ci.org/exoeconomy/EXOS-Qt)
 
-# CivX-Qt
-This the the source code repository for the CivX Blockchain Official Wallet.
+# EXOS-Qt
+This the the source code repository for the EXOS Blockchain Official Wallet.
 
 The Wallet source code is available here in this repository or for download here along with versions for Windows, OSX, and Linux.
 
-## CivX Quickstart Guide
-http://bit.ly/civxquickstartguide
+## EXOS Quickstart Guide
+http://bit.ly/exosquickstartguide
 
 ## Downloads:
-https://github.com/exofoundation/CivX-Qt/releases
+https://github.com/exoeconomy/EXOS-Qt/releases
 
-## CivX Website:
-http://www.civxeconomy.com
+## EXOS Website:
+http://economy.openexo.com
 
-## CivX Blog:
-http://www.civxeconomy.com/blog
+## EXOS Blog:
+http://economy.openexo.com/blog
 
-## The CivX Discord Community
+## The EXOS Discord Community
 https://discord.gg/eCNMCMt

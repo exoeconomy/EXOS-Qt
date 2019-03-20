@@ -17,7 +17,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>About CivX</string>
+   <string>About EXOS</string>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout_2">
    <item>
@@ -56,7 +56,7 @@
           <cursorShape>IBeamCursor</cursorShape>
          </property>
          <property name="text">
-          <string>&lt;b&gt;CivX&lt;/b&gt; version</string>
+          <string>&lt;b&gt;EXOS&lt;/b&gt; version</string>
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -102,7 +102,7 @@ Copyright © 2011-2012 The PPCoin developers
 Copyright © 2013-2014 The NovaCoin developers
 Copyright © 2014-2015 The Blackcoin developers
 Copyright © 2016-2017 The Stratis developers
-Copyright © 2017-2018 The ExOFoundation developers</string>
+Copyright © 2018-2019 The OpenExO and ExO Economy developers</string>
        </property>
        <property name="textInteractionFlags">
         <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -118,9 +118,9 @@ Copyright © 2017-2018 The ExOFoundation developers</string>
         <string>
 This is experimental software.
 
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot; style=&quot;color: orange;&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
 
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</string>
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot; style=&quot;color: orange;&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot; style=&quot;color: orange;&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</string>
        </property>
        <property name="textFormat">
         <enum>Qt::RichText</enum>
