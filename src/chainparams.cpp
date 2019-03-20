@@ -110,10 +110,10 @@ public:
         assert(hashGenesisBlock == uint256("0x00000036090a68c523471da7a4f0f958c1b4403fef74a003be7f71877699cab7"));
         assert(genesis.hashMerkleRoot == uint256("0x85c4a8a116eb457ff74bb64908e71c6780bff7e69ad3dadc9df6cd753c21f937"));
 
-        vSeeds.push_back(CDNSSeedData("Seednode1", "seednode1.civx.cloud"));
-        vSeeds.push_back(CDNSSeedData("Seednode2", "seednode2.exponentialz.com"));
-        vSeeds.push_back(CDNSSeedData("Seednode3", "seednode3.civx.cloud"));
-        vSeeds.push_back(CDNSSeedData("Seednode4", "seednode4.exponentialz.com"));
+        vSeeds.push_back(CDNSSeedData("Seednode1", "seednode1.oexo.cloud"));
+        vSeeds.push_back(CDNSSeedData("Seednode2", "seednode2.oexo.net"));
+        vSeeds.push_back(CDNSSeedData("Seednode3", "seednode3.oexo.cloud"));
+        vSeeds.push_back(CDNSSeedData("Seednode4", "seednode4.oexo.net"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 87);
@@ -170,12 +170,12 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("testseednode1", "testseednode1.civx.cloud"));
-        vSeeds.push_back(CDNSSeedData("testseednode2", "testseednode2.exponentialz.com"));
-        vSeeds.push_back(CDNSSeedData("testseednode3", "testseednode3.civx.cloud"));
-        vSeeds.push_back(CDNSSeedData("testseednode4", "testseednode4.exponentialz.com"));
+        vSeeds.push_back(CDNSSeedData("testseednode1", "testseednode1.oexo.cloud"));
+        vSeeds.push_back(CDNSSeedData("testseednode2", "testseednode2.oexo.net"));
+        vSeeds.push_back(CDNSSeedData("testseednode3", "testseednode3.oexo.cloud"));
+        vSeeds.push_back(CDNSSeedData("testseednode4", "testseednode4.oexo.net"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 75);    // civx test net start with X
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 75);    // exos test net start with X
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 206);
         base58Prefixes[SECRET_KEY]     = std::vector<unsigned char>(1, 75 + 128);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
