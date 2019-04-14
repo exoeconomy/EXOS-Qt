@@ -1,6 +1,6 @@
 [Protocol]
-exec=civx-qt '%u'
-protocol=civx
+exec=exos-qt '%u'
+protocol=exos
 input=none
 output=none
 helper=true

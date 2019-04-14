@@ -1,2 +1,2 @@
 # Linked code is Expat - only Debian packaging is GPL-2+
-civx-qt: possible-gpl-code-linked-with-openssl
+exos-qt: possible-gpl-code-linked-with-openssl

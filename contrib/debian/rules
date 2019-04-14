@@ -5,29 +5,29 @@
 #build/bitcoind::
 #	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_bitcoin)
 
-DEB_INSTALL_EXAMPLES_civxd += debian/examples/*
-DEB_INSTALL_MANPAGES_civxd += debian/manpages/*
+DEB_INSTALL_EXAMPLES_exosd += debian/examples/*
+DEB_INSTALL_MANPAGES_exosd += debian/manpages/*
 
 %:
 	dh --with bash-completion $@
 
 override_dh_auto_build:
-	cd src; $(MAKE) -f makefile.unix civxd
+	cd src; $(MAKE) -f makefile.unix exosd
 	$(MAKE)
 
 override_dh_auto_clean:
-	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f civx-qt; fi
+	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f exos-qt; fi
 	cd src; $(MAKE) -f makefile.unix clean
 
 override_dh_auto_configure:
-	qmake civx-qt.pro USE_QRCODE=1
+	qmake exos-qt.pro USE_QRCODE=1
 
 override_dh_auto_test:
-	cd src; $(MAKE) -f makefile.unix test_civx
-	src/test_civx
+	cd src; $(MAKE) -f makefile.unix test_exos
+	src/test_exos
 
 # Ensure wrapper is set executable
-binary-post-install/civxd:
-	chmod +x $(cdbs_curdestdir)usr/bin/civxd
-binary-post-install/civx-qt:
-	chmod +x $(cdbs_curdestdir)usr/bin/civx-qt
+binary-post-install/exosd:
+	chmod +x $(cdbs_curdestdir)usr/bin/exosd
+binary-post-install/exos-qt:
+	chmod +x $(cdbs_curdestdir)usr/bin/exos-qt

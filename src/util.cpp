@@ -918,7 +918,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "civx";
+    const char* pszModule = "exos";
 #endif
     if (pex)
         return strprintf(
@@ -948,13 +948,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\CivX
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\CivX
-    // Mac: ~/Library/Application Support/CivX
-    // Unix: ~/.civx
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\EXOS
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\EXOS
+    // Mac: ~/Library/Application Support/EXOS
+    // Unix: ~/.exos
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "CivX";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "EXOS";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -966,10 +966,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "CivX";
+    return pathRet / "EXOS";
 #else
     // Unix
-    return pathRet / ".civx";
+    return pathRet / ".exos";
 #endif
 #endif
 }
@@ -1018,7 +1018,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "civx.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "exos.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1051,7 +1051,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "civxd.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "exosd.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CivX</source>
-        <translation>O CivX</translation>
+        <source>About EXOS</source>
+        <translation>O EXOS</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CivX&lt;/b&gt; version</source>
-        <translation>Verzia &lt;b&gt;CivX&lt;/b&gt;</translation>
+        <source>&lt;b&gt;EXOS&lt;/b&gt; version</source>
+        <translation>Verzia &lt;b&gt;EXOS&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CivX developers</source>
+Copyright © 2018-2019 The OpenExO and ExO Economy developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CivX developers</translation>
+Copyright © 2018-2019 The OpenExO and ExO Economy developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CivX addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše CivX adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your EXOS addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše EXOS adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CivX address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto CivX adresu</translation>
+        <source>Sign a message to prove you own a EXOS address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto EXOS adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CivX address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou CivX adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified EXOS address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou EXOS adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+82"/>
-        <source>CivX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tokens from being stolen by malware infecting your computer.</source>
-        <translation>CivX sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
+        <source>EXOS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tokens from being stolen by malware infecting your computer.</source>
+        <translation>EXOS sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CivX</source>
-        <translation>Zobraziť informácie o CivX</translation>
+        <source>Show information about EXOS</source>
+        <translation>Zobraziť informácie o EXOS</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-55"/>
-        <source>Send tokens to a CivX address</source>
-        <translation>Poslať mince na CivX adresu</translation>
+        <source>Send tokens to a EXOS address</source>
+        <translation>Poslať mince na EXOS adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CivX</source>
-        <translation>Upraviť možnosti konfigurácie pre CivX</translation>
+        <source>Modify configuration options for EXOS</source>
+        <translation>Upraviť možnosti konfigurácie pre EXOS</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>CivX</source>
-        <translation>CivX</translation>
+        <source>EXOS</source>
+        <translation>EXOS</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -453,8 +453,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CivX</source>
-        <translation>&amp;O CivX</translation>
+        <source>&amp;About EXOS</source>
+        <translation>&amp;O EXOS</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CivX client</source>
-        <translation>CivX klient</translation>
+        <source>EXOS client</source>
+        <translation>EXOS klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CivX network</source>
-        <translation><numerusform>%n aktívne spojenie s CivX sieťov</numerusform><numerusform>%n aktívnych spojení s CivX sieťov</numerusform><numerusform>%n aktívnych spojení s CivX sieťou</numerusform></translation>
+        <source>%n active connection(s) to EXOS network</source>
+        <translation><numerusform>%n aktívne spojenie s EXOS sieťov</numerusform><numerusform>%n aktívnych spojení s EXOS sieťov</numerusform><numerusform>%n aktívnych spojení s EXOS sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -604,8 +604,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CivX address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou CivX adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid EXOS address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou EXOS adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -727,8 +727,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CivX can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. CivX už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. EXOS can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. EXOS už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1061,8 +1061,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CivX address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou CivX adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid EXOS address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou EXOS adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1080,8 +1080,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CivX-Qt</source>
-        <translation>CivX-Qt</translation>
+        <source>EXOS-Qt</source>
+        <translation>EXOS-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1153,13 +1153,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CivX after logging in to the system.</source>
-        <translation>Automaticky spustiť CivX po prihlásení sa do systému.</translation>
+        <source>Automatically start EXOS after logging in to the system.</source>
+        <translation>Automaticky spustiť EXOS po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CivX on system login</source>
-        <translation>&amp;Spustiť CivX pri prihlásení do systému</translation>
+        <source>&amp;Start EXOS on system login</source>
+        <translation>&amp;Spustiť EXOS pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1168,8 +1168,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CivX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta CivX na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the EXOS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta EXOS na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1198,8 +1198,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the CivX network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojiť k sieti CivX cez SOCKS5 proxy (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the EXOS network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojiť k sieti EXOS cez SOCKS5 proxy (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1243,8 +1243,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CivX.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní CivX.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting EXOS.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní EXOS.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1310,8 +1310,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CivX.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní CivX.</translation>
+        <source>This setting will take effect after restarting EXOS.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní EXOS.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1329,8 +1329,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CivX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou CivX po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EXOS network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou EXOS po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1403,8 +1403,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start civx: click-to-pay handler</source>
-        <translation>CivX sa nedá spustiť: click-to-pay handler</translation>
+        <source>Cannot start exos: click-to-pay handler</source>
+        <translation>EXOS sa nedá spustiť: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1571,8 +1571,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CivX-Qt help message to get a list with possible CivX command-line options.</source>
-        <translation>Zobraziť CivX-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku CivX.</translation>
+        <source>Show the EXOS-Qt help message to get a list with possible EXOS command-line options.</source>
+        <translation>Zobraziť EXOS-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku EXOS.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1591,13 +1591,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>CivX - Debug window</source>
-        <translation>CivX - Ladiace okno</translation>
+        <source>EXOS - Debug window</source>
+        <translation>EXOS - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CivX Core</source>
-        <translation>Jadro CivX</translation>
+        <source>EXOS Core</source>
+        <translation>Jadro EXOS</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1606,8 +1606,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CivX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte CivX súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the EXOS debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte EXOS súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1616,8 +1616,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the CivX RPC console.</source>
-        <translation>Vitajte v konzole CivX RPC.</translation>
+        <source>Welcome to the EXOS RPC console.</source>
+        <translation>Vitajte v konzole EXOS RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1797,8 +1797,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a CivX address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
-        <translation>Zadajte CivX adresu (napr. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
+        <source>Enter a EXOS address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
+        <translation>Zadajte EXOS adresu (napr. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1897,8 +1897,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid CivX address</source>
-        <translation>UPOZORNENIE: Neplatná CivX adresa</translation>
+        <source>WARNING: Invalid EXOS address</source>
+        <translation>UPOZORNENIE: Neplatná EXOS adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1971,8 +1971,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CivX address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
-        <translation>Zadajte CivX adresu (napr. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
+        <source>Enter a EXOS address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
+        <translation>Zadajte EXOS adresu (napr. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
     </message>
 </context>
 <context>
@@ -2032,8 +2032,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CivX address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto CivX adresu</translation>
+        <source>Sign the message to prove you own this EXOS address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto EXOS adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2064,8 +2064,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CivX address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou CivX adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified EXOS address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou EXOS adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2075,8 +2075,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CivX address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
-        <translation>Zadajte CivX adresu (napr. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
+        <source>Enter a EXOS address (e.g. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</source>
+        <translation>Zadajte EXOS adresu (napr. CVX62eYNnJaTHEQLf5E4hbSX1D9x6UKiYd)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2085,8 +2085,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CivX signature</source>
-        <translation>Zadajte CivX podpis</translation>
+        <source>Enter EXOS signature</source>
+        <translation>Zadajte EXOS podpis</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2664,8 +2664,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+171"/>
-        <source>CivX version</source>
-        <translation>Verzia CivX</translation>
+        <source>EXOS version</source>
+        <translation>Verzia EXOS</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2674,8 +2674,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or civxd</source>
-        <translation>Pošli príkaz na -server alebo civxd</translation>
+        <source>Send command to -server or exosd</source>
+        <translation>Pošli príkaz na -server alebo exosd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2694,13 +2694,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: civx.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: civx.conf)</translation>
+        <source>Specify configuration file (default: exos.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: exos.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: civxd.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: civxd.pid)</translation>
+        <source>Specify pid file (default: exosd.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: exosd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2717,24 +2717,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=civxrpc
+rpcuser=exosrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CivX Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;EXOS Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
 Doporučuje sa použiť nasledovné náhodne heslo:
-rpcuser=civxrpc
+rpcuser=exosrpc
 rpcpassword=%s
 (toto heslo si nemusíte pamätať)
 Užívateľské meno a heslo NESMIE byť rovnaké.
 Ak súbor neexistuje, vytvorte ho s právami &quot;môže čítať iba vlastník&quot;.
 Odporúča sa tiež nastaviť &quot;alertnotify&quot;, takže budete upozornení na problémy,
-napríklad: alertnotify=echo %%s | mail -s &quot;CivX upozornenie&quot; admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s &quot;EXOS upozornenie&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2749,8 +2749,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CivX upozornenie&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 16178 or testnet: 25714)</source>
-        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: 16178 alebo testovacia sieť: 25714)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 4562 or testnet: 14562)</source>
+        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: 4562 alebo testovacia sieť: 14562)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2839,8 +2839,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CivX upozornenie&quot; admin@fo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CivX will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny CivX nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong EXOS will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny EXOS nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="+130"/>
@@ -3134,8 +3134,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CivX upozornenie&quot; admin@fo
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. CivX is shutting down.</source>
-        <translation>Úvodné kontrolné testy zlyhali. CivX sa teraz zatvori.</translation>
+        <source>Initialization sanity check failed. EXOS is shutting down.</source>
+        <translation>Úvodné kontrolné testy zlyhali. EXOS sa teraz zatvori.</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -3189,13 +3189,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CivX upozornenie&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CivX</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu CivX</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of EXOS</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu EXOS</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CivX to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte CivX k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart EXOS to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte EXOS k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3254,8 +3254,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CivX upozornenie&quot; admin@fo
     </message>
     <message>
         <location line="+124"/>
-        <source>Unable to bind to %s on this computer. CivX is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. CivX je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. EXOS is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. EXOS je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3289,8 +3289,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CivX upozornenie&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CivX is probably already running.</source>
-        <translation>Nedá sa zamknúť dátová zložka %s. CivX je pravdepodobne už spustený</translation>
+        <source>Cannot obtain a lock on data directory %s. EXOS is probably already running.</source>
+        <translation>Nedá sa zamknúť dátová zložka %s. EXOS je pravdepodobne už spustený</translation>
     </message>
     <message>
         <location line="+4"/>

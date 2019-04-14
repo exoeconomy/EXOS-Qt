@@ -1,5 +1,5 @@
-civx (1.1.2.1) unstable; urgency=low
+exos (1.1.2.1) unstable; urgency=low
 
-  * Update debian package scripts for use by civx.
+  * Update debian package scripts for use by exos.
 
  -- Xerxes Rånby <xerxes@gudinna.com>  Mon, 22 December 2014 17:58:43 +0100
