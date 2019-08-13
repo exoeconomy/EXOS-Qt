@@ -15,7 +15,7 @@ https://github.com/exoeconomy/EXOS-Qt/releases
 http://economy.openexo.com
 
 ## EXOS Blog:
-http://economy.openexo.com/blog
+https://economy.openexo.com/news-1
 
 ## The EXOS Discord Community
 https://discord.gg/eCNMCMt
