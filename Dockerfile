@@ -31,14 +31,11 @@ RUN apt-get update && apt-get install -y \
         pwgen \
       && rm -rf /var/lib/apt/lists/*
 
-RUN mkdir -p /root/.exos/ && \
-    echo "rpcuser=exosrpc" > /root/.exos/exos.conf && \
-    echo "rpcpassword=$(pwgen -s 32 1)" >> /root/.exos/exos.conf
+RUN touch client.conf && \
+    echo "upnp=1" >> client.conf && \
+    echo "rpcuser=rutaniorpc" >> client.conf && \
+    echo "rpcpassword=$(pwgen -s 32 1)" >> client.conf && \
+    echo "datadir=/app/data" >> client.conf
 
-
-EXPOSE 16178
-
-ENTRYPOINT ["exosd", "-upnp"]
-
-CMD ["exosd", "getinfo"]
+ENTRYPOINT ["/usr/bin/exosd", "-conf=/app/client.conf"]
 
