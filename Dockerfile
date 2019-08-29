@@ -19,11 +19,11 @@ COPY . .
 
 RUN cd src/ && make -f makefile.unix USE_UPNP=1 STATIC=1
 
-FROM debian:8-slim as civxd
+FROM debian:8-slim as exosd
 
 WORKDIR /app
 
-COPY --from=builder /app/src/civxd /usr/bin/
+COPY --from=builder /app/src/exosd /usr/bin/
 
 RUN apt-get update && apt-get install -y \
         libminiupnpc10 \
@@ -31,15 +31,14 @@ RUN apt-get update && apt-get install -y \
         pwgen \
       && rm -rf /var/lib/apt/lists/*
 
-RUN mkdir -p /root/.civx/ && \
-    echo "rpcuser=civxrpc" > /root/.civx/civx.conf && \
-    echo "rpcpassword=$(pwgen -s 32 1)" >> /root/.civx/civx.conf
+RUN mkdir -p /root/.exos/ && \
+    echo "rpcuser=exosrpc" > /root/.exos/exos.conf && \
+    echo "rpcpassword=$(pwgen -s 32 1)" >> /root/.exos/exos.conf
 
 
 EXPOSE 16178
 
-ENTRYPOINT ["civxd", "-upnp", "--daemon"]
+ENTRYPOINT ["exosd", "-upnp"]
 
-CMD ["civxd", "help"]
+CMD ["exosd", "getinfo"]
 
-#./civxd -upnp -printtoconsole -datadir=/dataxd
