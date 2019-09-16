@@ -1832,7 +1832,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Bekreft sending av bitcoins</translation>
+        <translation>Bekreft sending av EXOS</translation>
     </message>
     <message>
         <location line="+1"/>

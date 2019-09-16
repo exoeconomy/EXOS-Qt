@@ -1250,7 +1250,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Vælg den standard underopdelingsenhed, som skal vises i brugergrænsefladen og ved afsendelse af bitcoins.</translation>
+        <translation>Vælg den standard underopdelingsenhed, som skal vises i brugergrænsefladen og ved afsendelse af EXOS.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1673,7 +1673,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Send bitcoins</translation>
+        <translation>Send EXOS</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1844,7 +1844,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Bekræft afsendelse af bitcoins</translation>
+        <translation>Bekræft afsendelse af EXOS</translation>
     </message>
     <message>
         <location line="+1"/>
