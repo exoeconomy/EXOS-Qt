@@ -3226,7 +3226,7 @@ for example: alertnotify=echo %%s | mail -s &quot;EXOS Alert&quot; admin@foo.com
     <message>
         <location line="+1"/>
         <source>Insufficient funds</source>
-        <translation>Otillräckligt med bitcoins</translation>
+        <translation>Otillräckligt med EXOS</translation>
     </message>
     <message>
         <location line="-40"/>

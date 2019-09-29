@@ -1250,7 +1250,7 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Elegir la subdivisión predeterminada para mostrar cantidades en la interfaz y cuando se envían bitcoins.</translation>
+        <translation>Elegir la subdivisión predeterminada para mostrar cantidades en la interfaz y cuando se envían EXOS.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1673,7 +1673,7 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Enviar bitcoins</translation>
+        <translation>Enviar EXOS</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1844,7 +1844,7 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Confirmar el envío de bitcoins</translation>
+        <translation>Confirmar el envío de EXOS</translation>
     </message>
     <message>
         <location line="+1"/>
