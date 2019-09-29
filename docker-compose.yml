@@ -1,7 +1,7 @@
 version: '3'
 services:
-  rutanio:
+  exos:
     build: .
-    image: erseco/exos-qt:rutanio
+    image: erseco/exos-qt
     volumes:
       - ./data:/app/data
