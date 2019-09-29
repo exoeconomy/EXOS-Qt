@@ -1,7 +1,7 @@
 src/*.exe
-src/exos
-src/exosd
-src/test_exos
+src/rutanio
+src/rutaniod
+src/test_rutanio
 src/build.h
 .*.swp
 *.*~*
@@ -10,12 +10,12 @@ src/build.h
 *.orig
 *.o
 *.patch
-.exos
+.rutanio
 
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-exos-qt
+rutanio-qt
 #resources cpp
 qrc_*.cpp
 #qt creator
@@ -28,3 +28,4 @@ build
 src/obj/*
 !src/obj/x13hash
 
+data/

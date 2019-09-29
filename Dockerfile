@@ -1,6 +1,6 @@
 FROM debian:8-slim as builder
 
-LABEL maintainer="Ernesto Serrano <ernesto@exolever.com>"
+LABEL maintainer="Ernesto Serrano <ernesto@openexo.com>"
 
 WORKDIR /app
 
@@ -31,11 +31,14 @@ RUN apt-get update && apt-get install -y \
         pwgen \
       && rm -rf /var/lib/apt/lists/*
 
-RUN touch client.conf && \
-    echo "upnp=1" >> client.conf && \
-    echo "rpcuser=rutaniorpc" >> client.conf && \
-    echo "rpcpassword=$(pwgen -s 32 1)" >> client.conf && \
-    echo "datadir=/app/data" >> client.conf
+RUN mkdir -p /root/.exos/ && \
+    echo "rpcuser=exosrpc" > /root/.exos/exos.conf && \
+    echo "rpcpassword=$(pwgen -s 32 1)" >> /root/.exos/exos.conf && \
+    echo "upnp=1" >> /root/.exos/exos.conf && \
+    echo "datadir=/app/data" >> /root/.exos/exos.conf
 
-ENTRYPOINT ["/usr/bin/exosd", "-conf=/app/client.conf"]
+
+EXPOSE 6782
+
+CMD ["exosd"]
 
