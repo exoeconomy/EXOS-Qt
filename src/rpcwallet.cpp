@@ -1344,7 +1344,7 @@ Value walletpassphrase(const Array& params, bool fHelp)
     nWalletUnlockTime = GetTime() + nSleepTime;
     RPCRunLater("lockwallet", boost::bind(LockWallet, pwalletMain), nSleepTime);
 
-    // ppcoin: if user OS account compromised prevent trivial sendmoney commands
+    // exos: if user OS account compromised prevent trivial sendmoney commands
     if (params.size() > 2)
         fWalletUnlockStakingOnly = params[2].get_bool();
     else
@@ -1443,7 +1443,7 @@ Value encryptwallet(const Array& params, bool fHelp)
 }
 
 
-// ppcoin: reserve balance from being staked for network protection
+// exos: reserve balance from being staked for network protection
 Value reservebalance(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() > 2)
@@ -1482,7 +1482,7 @@ Value reservebalance(const Array& params, bool fHelp)
 }
 
 
-// ppcoin: check wallet integrity
+// exos: check wallet integrity
 Value checkwallet(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() > 0)
@@ -1505,7 +1505,7 @@ Value checkwallet(const Array& params, bool fHelp)
 }
 
 
-// ppcoin: repair wallet
+// exos: repair wallet
 Value repairwallet(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() > 0)
@@ -1541,7 +1541,7 @@ Value resendtx(const Array& params, bool fHelp)
     return Value::null;
 }
 
-// ppcoin: make a public-private key pair
+// exos: make a public-private key pair
 Value makekeypair(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() > 1)

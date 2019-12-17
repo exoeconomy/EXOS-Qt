@@ -1201,7 +1201,7 @@ static void ApproximateBestSubset(vector<pair<int64_t, pair<const CWalletTx*,uns
     }
 }
 
-// ppcoin: total tokens staked (non-spendable until maturity)
+// exos: total tokens staked (non-spendable until maturity)
 int64_t CWallet::GetStake() const
 {
     int64_t nTotal = 0;
@@ -2235,8 +2235,8 @@ set< set<CTxDestination> > CWallet::GetAddressGroupings()
     return ret;
 }
 
-// ppcoin: check 'spent' consistency between wallet and txindex
-// ppcoin: fix wallet spent state according to txindex
+// exos: check 'spent' consistency between wallet and txindex
+// exos: fix wallet spent state according to txindex
 void CWallet::FixSpentCoins(int& nMismatchFound, int64_t& nBalanceInQuestion, bool fCheckOnly)
 {
     nMismatchFound = 0;
@@ -2285,7 +2285,7 @@ void CWallet::FixSpentCoins(int& nMismatchFound, int64_t& nBalanceInQuestion, bo
     }
 }
 
-// ppcoin: disable transaction (only for coinstake)
+// exos: disable transaction (only for coinstake)
 void CWallet::DisableTransaction(const CTransaction &tx)
 {
     if (!tx.IsCoinStake() || !IsFromMe(tx))

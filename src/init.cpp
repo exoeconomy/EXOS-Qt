@@ -614,7 +614,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     }
 
 #ifdef ENABLE_WALLET
-    if (mapArgs.count("-reservebalance")) // ppcoin: reserve balance amount
+    if (mapArgs.count("-reservebalance")) // exos: reserve balance amount
     {
         if (!ParseMoney(mapArgs["-reservebalance"], nReserveBalance))
         {
