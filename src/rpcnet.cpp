@@ -236,7 +236,7 @@ Value getaddednodeinfo(const Array& params, bool fHelp)
     return ret;
 }
 
-// ppcoin: send alert.  
+// exos: send alert.  
 // There is a known deadlock situation with ThreadMessageHandler
 // ThreadMessageHandler: holds cs_vSend and acquiring cs_main in SendMessages()
 // ThreadRPCServer: holds cs_main and acquiring cs_vSend in alert.RelayTo()/PushMessage()/BeginMessage()
@@ -265,14 +265,26 @@ Value sendalert(const Array& params, bool fHelp)
     if (params.size() > 6)
         alert.nCancel = params[6].get_int();
     alert.nVersion = PROTOCOL_VERSION;
-    alert.nRelayUntil = GetAdjustedTime() + 365*24*60*60;
-    alert.nExpiration = GetAdjustedTime() + 365*24*60*60;
+
+    const int64_t i64Mins = 60;                      // One Minute
+    const int64_t i64AlertNow = GetAdjustedTime();
+    alert.nRelayUntil = ( params.size() > 7 ) ? std::strtoll(params[7].get_str().c_str(), NULL, 0) : 30;   // mins
+    alert.nRelayUntil *= i64Mins;
+    alert.nRelayUntil += i64AlertNow;
+
+    alert.nExpiration = ( params.size() > 8 ) ? std::strtoll(params[8].get_str().c_str(), NULL, 0) : 30;   // mins
+    alert.nExpiration *= i64Mins;
+    alert.nExpiration += i64AlertNow;
 
     CDataStream sMsg(SER_NETWORK, PROTOCOL_VERSION);
     sMsg << (CUnsignedAlert)alert;
     alert.vchMsg = vector<unsigned char>(sMsg.begin(), sMsg.end());
 
     vector<unsigned char> vchPrivKey = ParseHex(params[1].get_str());
+    if (vchPrivKey.size() == 32) {               // Then we're given only a 32-byte private key multipler
+        key.Set(vchPrivKey.begin(), vchPrivKey.end(), false);
+    }
+
     key.SetPrivKey(CPrivKey(vchPrivKey.begin(), vchPrivKey.end()), false); // if key is not correct openssl may crash
     if (!key.Sign(Hash(alert.vchMsg.begin(), alert.vchMsg.end()), alert.vchSig))
         throw runtime_error(
@@ -296,6 +308,8 @@ Value sendalert(const Array& params, bool fHelp)
     result.push_back(Pair("nID", alert.nID));
     if (alert.nCancel > 0)
         result.push_back(Pair("nCancel", alert.nCancel));
+    result.push_back(Pair("nRelayUntil", alert.nRelayUntil));
+    result.push_back(Pair("nExpiration", alert.nExpiration));
     return result;
 }
 
