@@ -75,7 +75,7 @@ public:
         pchMessageStart[1] = 0x62;
         pchMessageStart[2] = 0x48;
         pchMessageStart[3] = 0x76;
-        vAlertPubKey = ParseHex("0486bce1bac0d543f104cbff2bd23680056a3b9ea05e1137d2ff90eeb5e08472eb500322593a2cb06fbf8297d7beb6cd30cb90f98153b5b7cce1493749e41e0284");
+        vAlertPubKey = ParseHex("04a1d87576377306ed9e51348cc27906e9b155f8d604439929b564157ef34586205239f0b6b7ca53c900ccd91dad54c3d86b9a340e716466defbd0e289d855e70b");
         nDefaultPort = 4562;
         nRPCPort = 4561;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
@@ -154,19 +154,19 @@ public:
         pchMessageStart[2] = 0x74;
         pchMessageStart[3] = 0x62;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
-        vAlertPubKey = ParseHex("0471dc165db490094d35cde15b1f5d755fa6ad6f2b5ed0f340e3f17f57389c3c2af113a8cbcc885bde73305a553b5640c83021128008ddf882e856336269080496");
+        vAlertPubKey = ParseHex("04f2551b0898d0a9c6a5004c9bb402e8a91e52b7e789de807ff3e7c366c3ab2c0e3d57700fc9a57ec5c70b202a8c84b8681a40b3d5ea9e32c70ab22bc918fbc37a");
         nDefaultPort = 14562;
         nRPCPort = 14561;
 
         strDataDir = "testnet";
         // Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce = 440504;
-        genesis.nTime  = 1528761600;                  // 2018-06-12 00:00:00 UTC
+        genesis.nNonce = 40540;
+        genesis.nTime  = 1572376229;                  // 2019-10-29 19:10:29 UTC
 
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0x0000059bb2c2048493efcb0f1a034972b3ce4089d54c93b69aaab212fb369887"));
+        assert(hashGenesisBlock == uint256("0x00000bf810e65773b5a0e5a43ea656080e10108424dcf475abc4228bfc52148f"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -183,7 +183,7 @@ public:
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
 
-        nLastPOWBlock = 0x7fffffff;
+        nLastPOWBlock = 45000;
     }
     virtual Network NetworkID() const { return CChainParams::TESTNET; }
 };
