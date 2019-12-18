@@ -39,8 +39,21 @@ init(){
         file=/etc/init.d/exos
         if [ ! -e "$file" ]
 	then
-	   printf '%s\n%s\n' '#!/bin/sh' 'sudo exosd' | sudo tee /etc/init.d/exos
-           sudo chmod +x /etc/init.d/exos
+           { echo "#!/bin/sh"
+             echo ""
+             echo "### BEGIN INIT INFO"
+             echo "# Provides:          exos"
+             echo "# Required-Start:    $remote_fs $syslog"
+             echo "# Required-Stop:     $remote_fs $syslog"
+             echo "# Default-Start:     2 3 4 5"
+             echo "# Default-Stop:      0 1 6"
+             echo "# Short-Description: exosd initscript"
+             echo "# Description:       This script is to be placed under /etc/init.d"
+             echo "### END INIT INFO"
+             echo ""
+             echo "sudo exosd"
+           } | sudo tee -a $file > /dev/null
+           sudo chmod +x $file
            sudo update-rc.d exos defaults
 	fi
 }
