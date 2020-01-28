@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="1">
+    <title>EXOS-Qt</title>
+    <background file="exos-qt-background-pkg.jpg" alignment="left" scaling="tofit"/>
+    <welcome file="welcome-pkg.rtf"/>
+    <readme file="readme-pkg.rtf"/>
+    <license file="license-pkg.rtf"/>    
+    <pkg-ref id="com.openexo.economy.exos-qt"/>
+    <options customize="never" require-scripts="false"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="com.openexo.economy.exos-qt"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="com.openexo.economy.exos-qt" visible="false">
+        <pkg-ref id="com.openexo.economy.exos-qt"/>
+    </choice>
+    <pkg-ref id="com.openexo.economy.exos-qt" onConclusion="none">EXOS-Qt.pkg</pkg-ref>
+</installer-gui-script>

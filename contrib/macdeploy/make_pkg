@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+
+# Parameterize
+PACKAGE="EXOS-Qt"
+DMG_BACKGROUND_IMG="exos-electrum-background-dmg.png"
+PKG_ICON="exos.icns"
+IDENTIFIER="com.openexo.economy.exos-qt"
+APPLE_DEV_INSTALLER_CERT="Developer ID Installer: "
+APPLE_DEV_APPLICATION_CERT="Developer ID Application: "
+
+. $(dirname "$0")/base.sh
+
+VERSION=`git describe --tags`
+VERSION="${VERSION:1}"
+
+QT_VERSION=`brew list --versions qt5 | sed -En -e 's/qt ([0-9._]+).*/\1/p'`
+QTDIR=/usr/local/Cellar/qt/${QT_VERSION}/
+
+info "Creating the DMG --> therefore dist/*.app folder will have all the Framework and Resources required for PKG"
+T=$(contrib/qt_translations.py $QTDIR/translations src/qt/locale)
+python2.7 contrib/macdeploy/macdeployqtplus -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist -verbose 3 EXOS-Qt.app
+
+# Code Signing: See https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Procedures/Procedures.html
+APP_SIGN=""
+if [ -n "$1" ]; then
+    # Test the identity is valid for signing by doing this hack. There is no other way to do this.
+    cp -f /bin/ls ./CODESIGN_TEST
+    codesign -s "$APPLE_DEV_APPLICATION_CERT$1" --dryrun -f ./CODESIGN_TEST > /dev/null 2>&1
+    res=$?
+    rm -f ./CODESIGN_TEST
+    if ((res)); then
+        fail "Code signing identity \"$APPLE_DEV_APPLICATION_CERT$1\" appears to be invalid."
+    fi
+    unset res
+    APP_SIGN="$APPLE_DEV_APPLICATION_CERT$1"
+    info "Code signing enabled using identity \"$APP_SIGN\""
+else
+    warn "Code signing DISABLED. Specify a valid macOS Developer identity installed on the system as the first argument to this script to enable signing."
+fi
+
+DoCodeSignMaybe "app bundle" "dist/${PACKAGE}.app" "$APP_SIGN" # If APP_SIGN is empty will be a noop
+
+info "Creating .PKG"
+CreatePKG "$PACKAGE" "$VERSION" "$PKG_ICON" "$IDENTIFIER" "$APPLE_DEV_INSTALLER_CERT" "$1"
+
+if [ -z "$APP_SIGN" ]; then
+    warn "App was built successfully but was not code signed. Users may get security warnings from macOS."
+    warn "Specify a valid code signing identity as the first argument to this script to enable code signing."
+fi
