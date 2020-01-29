@@ -1,11 +1,9 @@
 [Desktop Entry]
-Encoding=UTF-8
-Name=EXOS
-Comment=EXOS P2P Cryptocurrency
-Exec=/usr/bin/exos-qt
-Terminal=false
+Name=EXOS-Qt
+Comment=EXOS Staking Wallet
+Exec=AppRun %F
 Type=Application
-Icon=/usr/share/pixmaps/bitcoin80.xpm
+Icon=exos
 MimeType=x-scheme-handler/exos;
-Categories=Office;
+Categories=Finance;Network;
 Name[en_US]=exos-qt.desktop
